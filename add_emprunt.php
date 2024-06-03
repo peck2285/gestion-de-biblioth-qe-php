@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <button class='logout-btn' onclick="window.location.href='logout.php'">Déconnexion</button>
             <?php else : ?>
                 <a href='login.php'>Connexion</a>
-                <a href='#'>Inscription</a>
+                <a href=''>Inscription</a>
             <?php endif; ?>
         </div>
     </div>
